@@ -1,3 +1,3 @@
-from .core import node
+from .core import SlackBridgeNode
 
-node.server.run()
+SlackBridgeNode().run()
