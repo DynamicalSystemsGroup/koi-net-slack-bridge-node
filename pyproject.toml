@@ -1,6 +1,6 @@
 [project]
 name = "koi-net-slack-bridge-node"
-version = "0.1.0"
+version = "0.1.1"
 description = "Forwards knowledge objects to a Slack channel"
 authors = [
     {name = "Luke Miller", email = "luke@block.science"}

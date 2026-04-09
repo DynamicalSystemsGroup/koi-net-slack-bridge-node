@@ -11,8 +11,8 @@ from .models import ObsidianNote
 
 
 class SlackEnvConfig(EnvConfig):
-    slack_bot_token: str
-    slack_signing_secret: str
+    slack_bridge_bot_token: str
+    slack_bridge_signing_secret: str
     
 class SlackBridgeConfig(BaseModel):
     slack_channel: str | None = None

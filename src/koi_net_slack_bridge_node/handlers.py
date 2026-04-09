@@ -23,7 +23,6 @@ class BridgeReporter(KnowledgeHandler):
         note = kobj.bundle.validate_contents(ObsidianNoteSchema)
         
         formatted_text = '> ' + '\n> '.join(note.text.splitlines())
-        print(formatted_text)
         
         self.slack_app.client.chat_postMessage(
             channel=self.config.slack_bridge.slack_channel,
